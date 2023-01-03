@@ -1,0 +1,80 @@
+.loginLogo {
+    width: 250px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px;
+
+}
+
+.shadowed {
+    box-shadow: 5px 5px 10px black;
+    border-radius: 3px;
+}
+
+.circle {
+    /*border-radius: 150px;*/
+}
+
+.websiteName {
+    font-family: 'Pacifico', cursive;
+
+}
+
+h1.subheading:before {
+    position: relative;
+    margin-right: 25px;
+    content: "\007E";
+}
+
+h1.subheading:after {
+    position: relative;
+    content: "\007E";
+    margin-left: 25px;
+}
+
+.productCard {
+
+}
+
+body {
+    background-image: url("/images/body_bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#loginBtn {
+    border: none
+}
+
+#loginBtn::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width .3s;
+}
+
+#loginBtn:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+#loginBtn:hover {
+    transition: border-bottom 300ms;
+}
+.descriptionLink{
+    cursor: pointer !important;
+}
+
+#myCarousel{
+    box-shadow:5px 5px 10px black;
+}
+.navbar-nav > li > .dropdown-menu { background-color: #212529 !important; }
+.navbar-nav > li > .dropdown-menu>li>a { color: #FFFFFF !important; }
+.navbar-nav > li > .dropdown-menu>li>a:hover {background-color: #000000 !important;  }
+
+.footer{
+    width: 100% !important;
+
+}
